@@ -1,2 +1,3 @@
-# bean_platformer
-I am following Hackclub's game making tutorial and making a game.
+# Welcome to Kaboom!
+
+Click `script.js` in the sidebar over there ↙️ to get started!
