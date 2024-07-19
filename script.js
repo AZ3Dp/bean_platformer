@@ -62,9 +62,15 @@ const levels = [
   ],
   [
 	// Design the level layout with symbols
-	"@  ^       O",
+	"@  ^   =    O",
 	"====   $$ ^ ",
-  "    ========",
+  "   ^ ========",
+  ],
+  [
+	// Design the level layout with symbols
+	"@ ==       O",
+	"= =   ^ $$ ^ ",
+  " =  ========",
   ],
 ]
 
@@ -155,6 +161,10 @@ onKeyDown("d", () => {
 
 onKeyDown("w", () => {
 	player.move(0, -SPEED)
+})
+
+onKeyDown("enter", () => {
+	player.pos = level.tile2Pos(0, 0)
 })
 
 
